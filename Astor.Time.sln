@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astor.Time", "Astor.Time\Astor.Time.csproj", "{8482F6AA-DAAE-413C-8C23-8735F239FFFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Astor.Time.Tests", "Astor.Time.Tests\Astor.Time.Tests.csproj", "{C63622DB-4A1D-4673-A593-82B0B80AC0F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8482F6AA-DAAE-413C-8C23-8735F239FFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8482F6AA-DAAE-413C-8C23-8735F239FFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8482F6AA-DAAE-413C-8C23-8735F239FFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8482F6AA-DAAE-413C-8C23-8735F239FFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C63622DB-4A1D-4673-A593-82B0B80AC0F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C63622DB-4A1D-4673-A593-82B0B80AC0F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C63622DB-4A1D-4673-A593-82B0B80AC0F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C63622DB-4A1D-4673-A593-82B0B80AC0F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
