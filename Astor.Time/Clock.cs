@@ -12,5 +12,10 @@ namespace Astor.Time
             get => time ?? DateTime.Now;
             set => time = value;
         }
+
+        public static void Reset()
+        {
+            time = null;
+        }
     }
 }

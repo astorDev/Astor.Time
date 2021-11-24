@@ -20,5 +20,14 @@ namespace Astor.Time.Tests
             
             Assert.AreEqual(new DateTime(2020, 1, 12), Clock.Time);
         }
+
+        [TestMethod]
+        public void ReturnKindaCurrentTime_AfterReset()
+        {
+            Clock.Time = new DateTime(2020, 1, 2);
+            Clock.Reset();
+            
+            Assert.AreEqual(DateTime.Now.ToString(), Clock.Time.ToString());
+        }
     }
 }
